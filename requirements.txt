@@ -29,3 +29,6 @@ notebook>=6.4.0
 # Utils
 tqdm>=4.64.0
 python-dotenv>=0.20.0
+
+# Gradient Boosting
+xgboost>=2.0.0
