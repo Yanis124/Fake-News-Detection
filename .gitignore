@@ -2,4 +2,5 @@
 data/raw/*
 data/processed/*
 artifacts/*
+features_importance/*
 !.gitkeep
