@@ -28,6 +28,7 @@ Nous utilisons une **ablation sequentielle retrograde** :
 - On entraine un modele avec toutes les features.
 - On retire les features une par une, en recalculant les performances.
 - On mesure le delta de performance (Δ) pour evaluer la contribution de chaque feature.
+   Δ Accuracy = Accuracy avant suppression - Accuracy après suppression
 
 Interpretation des deltas :
 - Δ positif : la suppression degrade le modele (feature utile)
@@ -213,5 +214,3 @@ Le notebook sert de support technique, tandis que ce rapport structure les messa
 - Risque de bruit et surapprentissage si on ajoute des features sans validation.
 
 **5:40 - 6:00 | Conclusion**
-- Le feature engineering doit etre etudie de maniere plus intelligente.
-- Prochaines etapes : validation croisee, features semantiques, combinaisons.
