@@ -1,6 +1,5 @@
 .venv
 data/raw/*
 data/processed/*
-artifacts/*
-features_importance/*
+exp_results/*
 !.gitkeep
